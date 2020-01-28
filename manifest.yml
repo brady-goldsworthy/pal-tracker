@@ -5,5 +5,5 @@ applications:
     routes:
       - route: pal-tracker-brady-mike.apps.evans.pal.pivotal.io
     env:
-      WELCOME_MESSAGE: Hello from Cloud Foundry
+      WELCOME_MESSAGE: Hello from the review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
