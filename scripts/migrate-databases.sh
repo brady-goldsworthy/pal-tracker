@@ -4,7 +4,7 @@ set -e
 
 app_name="${1:-pal-tracker}"
 script_dir="${2:-.}"
-service_name="${3:-tracker-database}"
+service_name="${3:-trackerDB}"
 service_key="${4:-flyway-migration-key}"
 
 function main() {
